@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>张海鹏个人简历 - Your Name</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f4f4f9;
+            scroll-behavior: smooth;
+        }
+        header {
+            background-color: #6c63ff;
+            color: white;
+            text-align: center;
+            padding: 50px 0;
+            position: relative;
+            overflow: hidden;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        header p {
+            font-size: 1.2em;
+            margin-top: 10px;
+        }
+        header img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 5px solid white;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .container {
+            width: 80%;
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 0 10px;
+        }
+        section {
+            margin: 20px 0;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #6c63ff;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+        .skills, .projects {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .skills div, .project-item {
+            background: #f9f9f9;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            flex: 1;
+            min-width: calc(50% - 20px);
+            transition: transform 0.3s ease;
+        }
+        .skills div:hover, .project-item:hover {
+            transform: translateY(-10px);
+        }
+        .project-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        .project-item img {
+            width: 100%;
+            max-width: 200px;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #333;
+            color: white;
+            margin-top: 20px;
+        }
+        a {
+            color: #6c63ff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Your Name</h1>
+    <p>Full-stack Developer | Open Source Enthusiast | Problem Solver</p>
+    <img src="path/to/your-photo.jpg" alt="Your Photo">
+</header>
+
+<div class="container">
+    <section>
+        <h2>个人简介</h2>
+        <p>我是一名爱好嵌入式的研究生，擅长软硬件与机械设计，学术成绩优异，多次获得国家、省市级竞赛奖项，具有丰富的科研和社会实践经历，具备良好的创新能力和团队协作精神。擅长多种工程软件，热衷于电子制作与摄影，积极参与志愿服务和校内外活动，不断追求全面发展</p>
+    </section>
+
+    <section>
+        <h2>专业技能</h2>
+        <div class="skills">
+            <div>精通软硬件设计，立创EDA原理图电路设计、元器件选型、多层PCB-Layout、示波器逻辑分析仪等仪器使用。</div>
+            <div>非常熟练操作CLion、KEIL等编译器开发STM32或ESP32等项目，有丰富的串口屏开发，软硬件设计与焊接经验。</div>
+            <div>非常熟练使用语言编程，IIC、SPI、FDCAN、RS485、UART等协议应用与STM32 RTOS开发，Solidworks制图。</div>
+            <div>熟练操作AutoCAD、Multisim等软件。熟悉项目管理工具GIT，熟悉Linux操作与机器视觉。</div>
+        </div>
+    </section>
+
+    <section>
+        <h2>项目经验</h2>
+        <div class="projects">
+            <div class="project-item">
+                <img src="path/to/project1-thumbnail.jpg" alt="Project 1 Thumbnail">
+                <h3>项目名称 1</h3>
+                <p>描述项目的背景、功能和你在其中的角色。突出你的贡献和成就。</p>
+                <a href="#">查看项目</a>
+            </div>
+            <div class="project-item">
+                <img src="path/to/project2-thumbnail.jpg" alt="Project 2 Thumbnail">
+                <h3>项目名称 2</h3>
+                <p>描述项目的背景、功能和你在其中的角色。突出你的贡献和成就。</p>
+                <a href="#">查看项目</a>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>联系方式</h2>
+        <p>邮箱: yourname@example.com | GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a> | LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a></p>
+    </section>
+</div>
+
+<footer>
+    <p>© 2024 Your Name. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
